@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # 
-# Graphics of the solutions equations for the SIR, COMPARTMENTAL MODEL.
+# Graphics of the equations solution for the SIR, COMPARTMENTAL MODEL.
 # ------------------------------------------------------------------------------
 # Written by : Michael Heredia Pérez
 # Date       : Apr/2020
@@ -15,7 +15,7 @@ from scipy.integrate import odeint      # ODF Solver.
 
 # BEGINING DATA
 N = 10000           # Total poluation.
-Io, Ro = 1, 0       # Day cero : The first infected is anounced (1) and we have 
+Io, Ro = 1, 0       # Day zero : The first infected is anounced (1) and we have 
                     # no recovered people.
 So = N - Io - Ro    # Everyone is susceptible to get infected, but an infected 
                     # does not count nor who is already recovered.
