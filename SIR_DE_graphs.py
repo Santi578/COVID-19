@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint      # ODF Solver.
 
 # BEGINING DATA
-N = 10000           # Total poluation (Colombia case)
+N = 10000           # Total poluation.
 Io, Ro = 1, 0       # Day cero : The first infected is anounced (1) and we have 
                     # no recovered people.
 So = N - Io - Ro    # Everyone is susceptible to get infected, but an infected 
