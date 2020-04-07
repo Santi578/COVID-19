@@ -1,6 +1,6 @@
 # COVID-19 analysis with compartmental models.
 
-[Compartmental models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model) are mathematical tools to study infectious disease, taking into consideration that the total population is divided into different compartments, according to the condition of each person.
+[Compartmental models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) are mathematical tools to study infectious disease, taking into consideration that the total population is divided into different compartments, according to the condition of each person.
 
 The differences among the methods are the amount of compartments and variables that are studied
 
